@@ -1,0 +1,275 @@
+@media  screen and (max-width:1600px) {
+    .sponspors{
+        padding: 50px 140px;
+    }
+    .sponspors-img-area{
+        gap: 120px;
+        
+    }
+    .footer{
+        padding: 50px 140px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    
+    .featurs{
+        padding: 50px 140px;
+        gap: 45px;
+        
+    
+    }
+    .feature-header-area .heading-2{
+        font-size:35px ;
+    }
+
+    .facts{
+        padding: 50px 140px;
+        margin: 0 auto;
+        
+    }
+    .fact-desc-area{
+      
+        /* grid-template-columns: repeat(2, 1fr); */
+        gap: 20px;
+        
+    }
+
+    .sponspors{
+        padding: 50px 80px;
+    }
+    .sponspors-img-area{  
+        gap: 80px;
+        
+    }
+
+
+}
+@media screen and (max-width:1200px) {
+    .navigation{
+        padding: 50px 80px 45px 80px;
+    }
+    .hero{
+        padding: 50px 180px 45px;
+    }
+  
+    .quick-list{
+        padding: 40px 180px;
+        gap: 50px;
+    
+    }
+    .featurs{
+        padding: 50px 70px;
+        gap: 35px;
+        
+    
+    }
+    .feature-header-area .heading-2{
+        font-size:35px ;
+    }
+    .facts{
+        padding: 50px 70px;
+        margin: 0 auto;
+        
+    }
+    .fact-desc{
+    
+        width: 180px;
+        height: 180px;
+        border-radius: 8px;
+        padding: 30px 20px;
+    }
+    .heading-3-1{
+        font-size: 35px;
+    }
+    .para-1{
+        font-size: 18px;
+    }
+    .sponspors{
+        padding: 50px 50px;
+    }
+    .sponspors-img-area{  
+        gap: 50px;
+        flex-direction: column;
+        
+    }
+ 
+}
+@media screen and (max-width:992px) {
+
+    .navigation{
+        padding: 50px 50px 45px 50px;
+    }
+    .hero{
+        padding: 50px 80px 45px;
+
+    }
+
+    .heading-1{
+        font-size: 55px;
+    }
+    .quick-list{
+        padding: 40px 60px;
+        gap: 30px;
+    
+    }
+
+    .quick-list-img-area{
+
+       gap: 12px;
+    }
+
+    .featurs{
+        padding: 50px 50px;
+        gap: 35px;
+        
+    
+    }
+    .feature-header-area .heading-2{
+        font-size:30px ;
+    }
+    .facts{
+        padding: 50px 50px;
+   
+        
+    }
+    .fact-desc{
+    
+        width: 120px;
+        height: 120px;
+        border-radius: 8px;
+        padding: 20px 15px;
+    }
+
+    .fact-logo{
+        width: 20%;
+        height: 20%;
+    
+    }
+    .heading-3-1{
+        font-size: 25px;
+    }
+    .para-1{
+        font-size: 14px;
+    }
+    .footer{
+        padding: 50px 100px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .flex{
+        flex-direction: column;
+        align-items: normal;
+    }  
+    .navigation{
+        padding: 50px 40px 45px 40px;
+    }
+
+    .header-menu{
+        max-width: 100%;
+        display: none;
+    }
+    .open{
+        display: block;
+    }
+    .logo-sec{
+        flex-direction: row;
+        justify-content: normal;
+        align-items: center;
+    }
+    .menu-btn{
+        display: inline-block;
+    }
+    .header-menu> li{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .hero{
+        padding: 50px 60px 45px;
+
+    }
+    .heading-1{
+        font-size: 45px;
+    }
+    .quick-list{
+        flex-direction: column-reverse;
+    }
+
+    .featurs{
+        flex-direction: column;
+        justify-content: normal;
+        
+    
+    }
+    .feature-header-area .heading-2{
+        font-size:30px ;
+    }
+    .featur-desc-area{
+        max-width: 100%;
+    }
+    .fact-desc-area{
+       
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 120px;
+     
+    }
+    .fact-desc{
+    
+        width: 180px;
+        height: 180px;
+        border-radius: 8px;
+        padding: 20px 15px;
+    }
+
+    .fact-logo{
+        width: 30%;
+        height: 30%;
+    
+    }
+    .heading-3-1{
+        font-size: 30px;
+    }
+    .para-1{
+        font-size: 20px;
+    }
+    .footer{
+        padding: 50px 80px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero{
+        padding: 50px 50px 45px;
+
+    }
+    .heading-1{
+        font-size: 35px;
+    }
+    .fact-desc-area{
+        padding: 50px 50px;
+    }
+    .fact-desc{
+    
+        width: 120px;
+        height: 120px;
+        border-radius: 8px;
+        padding: 15px 10px;
+    }
+
+    .fact-logo{
+        width: 20%;
+        height: 20%;
+    
+    }
+    .heading-3-1{
+        font-size: 25px;
+    }
+    .para-1{
+        font-size: 16px;
+    }
+    .footer{
+        padding: 50px 50px;
+    }
+}
